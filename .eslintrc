@@ -21,3 +21,6 @@ env:
   jquery: true
 
 root: true
+
+rules:
+  no-console: 0

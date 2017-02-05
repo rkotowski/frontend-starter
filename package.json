@@ -4,7 +4,8 @@
   "description": "Modern client-side application jQuery starter kit",
   "main": "webpack.config.js",
   "scripts": {
-    "sass-lint": "sass-lint -v -q"
+    "sass-lint": "sass-lint -v -q",
+    "eslint": "eslint ./src/js/core.js -o ./linters/eslint.html --format html"
   },
   "repository": {
     "type": "git",
@@ -20,6 +21,7 @@
     "date-fns": "^1.27.2",
     "eslint": "^3.15.0",
     "eslint-config-walmart": "^1.1.1",
+    "eslint-plugin-filenames": "^1.1.0",
     "handlebars": "^4.0.6",
     "jquery": "^3.1.1",
     "lodash": "^4.17.4",
