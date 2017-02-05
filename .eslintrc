@@ -1,0 +1,23 @@
+---
+extends:
+  - "eslint-config-walmart/rules/eslint/best-practices/on.js"
+  - "eslint-config-walmart/rules/eslint/errors/on.js"
+  - "eslint-config-walmart/rules/eslint/es6/on.js"
+  - "eslint-config-walmart/rules/eslint/node/on.js"
+  - "eslint-config-walmart/rules/filenames/on.js"
+
+parserOptions:
+  ecmaVersion: 6
+  sourceType: "module"
+  ecmaFeatures:
+    experimentalObjectRestSpread: true
+
+env:
+  browser: true
+  node: true
+  commonjs: true
+  es6: true
+  jest: true
+  jquery: true
+
+root: true

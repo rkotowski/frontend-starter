@@ -1,0 +1,27 @@
+{
+  "name": "frontend-starter",
+  "version": "1.0.0",
+  "description": "Modern client-side application jQuery starter kit",
+  "main": "webpack.config.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/rkotowski/frontend-starter.git"
+  },
+  "author": "Rafał Kotowski",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/rkotowski/frontend-starter/issues"
+  },
+  "homepage": "https://github.com/rkotowski/frontend-starter#readme",
+  "devDependencies": {
+    "date-fns": "^1.27.2",
+    "eslint": "^3.15.0",
+    "eslint-config-walmart": "^1.1.1",
+    "handlebars": "^4.0.6",
+    "jquery": "^3.1.1",
+    "lodash": "^4.17.4"
+  }
+}
